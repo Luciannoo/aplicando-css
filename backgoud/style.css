@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg"); 
+    /* serve para adicinar imagens */
+    background-size: cover;
+    /* ajusta o tamanhado da imagem */
+}
+header {
+    background-color: #333;
+    color: #fff;
+}
+main {
+    background-color: #e5e5e5;
+    border-width: 4px;
+    border-color: #1c1a1d;
+    border-style: solid;
+    /* definindo a borda e suas propriedades, como: estilo, cor e largura */
+}
+/* puxando da div */
+.box1 {
+    background-color: #169436;
+    /* abreviando tudo para uma linha, não importa a ordem */
+    border: 4px solid #1c1a1d;
+    height: 64px;
+    width: 360px;
+}
+.box2 {
+    background-image: linear-gradient(to left, #2c2c2d, #f64348);
+    border: 4px dotted #1c1a1d;
+    height: 64px;
+    width: 360px;
+}
+.box3 {
+    background-color: #0077ff;
+    border: 2px solid #1c1a1d;
+    border-radius: 4px;
+    /* arredondamento das bordas */
+    height: 64px;
+    width: 360px;
+}
