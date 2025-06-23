@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 10px;
+}
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+/* é uma unidade fixa, padrão */
+.px {
+    height: 10px;
+}
+/* 16px é a medida padrão dos navegadores */
+/* root element-> 16px * 3 = 48px 
+é tamanho ajustável */
+.rem {  
+    height: 3rem; /*pode usar medida quebrada (2.5rem;)*/
+}
+/*utiliza como referência o tamanho da fonte do elemento root  */
+.em {
+    /* bom uso para buttom com tamnho variável */
+    font-size: 32px;
+    height: 2em;
+}
+/* usa a altura do elemento pai */
+.prcnt-33 {
+    height: 33%;
+}
+.prcnt-66 {
+    height: 66%;
+}
+/* viewport (área de vizualição do navegador na página) height */
+/* calcula o tam conforme o tam da tela exibida */
+.vh {
+    height: 30vh;
+
+}
+/* viewport widht */
+.vw {
+    width: 50vw;
+}
