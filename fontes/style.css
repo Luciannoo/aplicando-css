@@ -1,0 +1,33 @@
+body {
+    margin: 20px 300px 0 300px;
+}
+header {
+  /* aplica uma decoração para o texto */
+  text-decoration: underline; 
+  text-align: center;
+}
+.maisculo {
+  text-transform: capitalize;
+}
+.minusculo {
+  text-transform: lowercase;
+}
+h1 {
+  /* define a familia da fonte */
+  font-family: sans-serif;
+  /* define o peso da fonte (a espessura) */
+  font-weight: 900;
+}
+h2 {
+  /* tamanho da fonte */
+  font-size: 16px;
+  /* define um espaço entre as letras */
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
